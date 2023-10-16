@@ -1,4 +1,4 @@
 public interface IGrafico{
-    bool Mover();
-    bool Dibujar();
+    bool mover(int x, int y);
+    bool dibujar();
 }

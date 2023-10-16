@@ -6,8 +6,8 @@ class Punto : IGrafico{
         this.x = x;
         this.y = y;
     }
-
-    public bool Mover(){
+    
+    public bool mover(int x, int y){
         return true;
     }
     public bool dibujar(){
