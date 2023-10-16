@@ -11,7 +11,7 @@ class GraficoCompuesto : IGrafico{
     public string dibujar(){
         var salida = "";
         for (int i =0; i<= puntos.Count; i++ ){
-            salida += $"({puntos[i].x}x{puntos[i].y})";
+            salida += $"({puntos[i].x}x{puntos[i].y})\n";
         }
         return salida;
     }
