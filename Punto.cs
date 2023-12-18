@@ -8,6 +8,14 @@ class Punto : IGrafico{
         this.x = x;
         this.y = y;
     }
-    public bool mover(int x, int y) => x > 800 && y > 600;
+
+    public bool mover(int x, int y)
+    {
+        if (x >= 0 && x <= 800 && y >= 0 && y <= 600)
+        {
+            return true;
+        }
+        return false;
+    }
     public string dibujar() => $"({x}x{y})";
 }
